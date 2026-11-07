@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+<rect width="1400" height="520" fill="#f8fafc"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="40" y="165" width="270" height="170" rx="22" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="175" y="220" font-size="25" font-weight="bold" fill="#0c4a6e">Stage 1 APK</text><text x="175" y="263" font-size="19" fill="#0f172a">com.secure.android</text><text x="175" y="290" font-size="19" fill="#0f172a">.manager</text>
+<rect x="390" y="165" width="270" height="170" rx="22" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+<text x="525" y="220" font-size="25" font-weight="bold" fill="#78350f">Embedded asset</text><text x="525" y="263" font-size="19" fill="#0f172a">XOR-transformed</text><text x="525" y="290" font-size="19" fill="#0f172a">.raw payload</text>
+<rect x="740" y="165" width="270" height="170" rx="22" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+<text x="875" y="220" font-size="25" font-weight="bold" fill="#14532d">Stage 2 APK</text><text x="875" y="263" font-size="19" fill="#0f172a">com.veltrix</text><text x="875" y="290" font-size="19" fill="#0f172a">.documents</text>
+<rect x="1090" y="165" width="270" height="170" rx="22" fill="#fce7f3" stroke="#db2777" stroke-width="3"/>
+<text x="1225" y="220" font-size="25" font-weight="bold" fill="#831843">Code-level</text><text x="1225" y="263" font-size="19" fill="#0f172a">SMS / payment /</text><text x="1225" y="290" font-size="19" fill="#0f172a">call-control paths</text>
+<path d="M310 250 H380 M660 250 H730 M1010 250 H1080" stroke="#475569" stroke-width="4" marker-end="url(#a)" fill="none"/>
+<text x="700" y="430" font-size="22" fill="#334155">Offline static reconstruction — no installation or live C2 interaction</text>
+</g></svg>
